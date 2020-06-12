@@ -1,0 +1,64 @@
+input {
+  border: transparent;
+  /* border-bottom: 2px solid orange; */
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+.add-button {
+  position: absolute;
+  right: 30px;
+  bottom: -25px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+textarea {
+  background-color: transparent;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  resize: none;
+  padding-left: 10px;
+}
+textarea:focus,
+input:focus,
+button:focus {
+  outline: none;
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
+.note {
+  width: 28rem;
+  background-color: #efefef;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 5px;
+  margin: 2rem 0;
+  padding: 8px 0;
+  position: relative;
+}
+.notes {
+  width: 15rem;
+  background-color: #efefef;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.delete-button {
+  color: orange;
+  font-weight: 600;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
